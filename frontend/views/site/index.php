@@ -2,9 +2,49 @@
 
 /* @var $this yii\web\View */
 
+use yii\helpers\Html;
+
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+            	<?= Html::img('img/slide1.jpg');?>
+                <div class="carousel-caption">
+                    <h4>Header of Slide 1</h4>
+                </div>
+            </div>
+            <div class="item">
+            	<?= Html::img('img/slide2.jpg');?>
+                <div class="carousel-caption">
+                    <h4>Header of Slide 2</h4>
+                </div>
+            </div>
+            <div class="item">
+            	<?= Html::img('img/slide3.jpg');?>
+                <div class="carousel-caption">
+                    <h4>Header of Slide3</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    </div>
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>
