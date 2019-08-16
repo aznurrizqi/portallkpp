@@ -46,48 +46,88 @@ $this->title = 'My Yii Application';
         </ol>
     </div>
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
     <div class="body-content">
-
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <div class="lkpp-site">
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            <div class="col-lg-8">
+                <div class="search-box">
+                </div>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="service-list">
+                	<ul class="nav nav-pills nav-justified">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#menu1" data-toggle="tab">PBJ APBN/APBD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu2" data-toggle="tab">PBJ Non APBN/APBD</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content float-right">
+                        <div class="tab-pane active centered-pills" role="tabpanel" id="menu1">
+                        	<ul class="nav nav-pills nav-modified text-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#menu11" data-toggle="tab">Pelaku Usaha</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">PA/KPA</a>
+                                </li>
+                            </ul>
+                            <div class="tab-subcontent float-right">
+                                <div class="tab-pane active" role="tabpanel" id="menu11">
+                                
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="menu12">
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="menu2">
+                        
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+
+<!--         <div class="row"> -->
+<!--             <div class="col-lg-4"> -->
+<!--                 <h2>Heading</h2> -->
+
+<!--                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et -->
+<!--                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip -->
+<!--                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu -->
+<!--                     fugiat nulla pariatur.</p> -->
+
+<!--                 <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p> -->
+<!--             </div> -->
+<!--             <div class="col-lg-4"> -->
+<!--                 <h2>Heading</h2> -->
+
+<!--                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et -->
+<!--                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip -->
+<!--                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu -->
+<!--                     fugiat nulla pariatur.</p> -->
+
+<!--                 <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p> -->
+<!--             </div> -->
+<!--             <div class="col-lg-4"> -->
+<!--                 <h2>Heading</h2> -->
+
+<!--                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et -->
+<!--                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip -->
+<!--                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu -->
+<!--                     fugiat nulla pariatur.</p> -->
+
+<!--                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p> -->
+<!--             </div> -->
+<!--         </div> -->
 
     </div>
 </div>
