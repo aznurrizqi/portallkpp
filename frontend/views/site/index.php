@@ -78,6 +78,96 @@ $this->title = 'My Yii Application';
                                 <li class="nav-item">
                                     <a class="nav-link" href="#menu12" data-toggle="tab">PA/KPA</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">PPK</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">Pejabat Pengadaan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">UKPBJ (LPSE/Pokja)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">PjPHP/PPHP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">Auditor/APH</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu12" data-toggle="tab">Masyarakat</a>
+                                </li>
+                            </ul>
+                            <div class="tab-subcontent float-right">
+                                <div class="tab-pane active" role="tabpanel" id="menu11">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                        	<p>Layanan ini diperuntukkan bagi Pelaku Usaha</p>
+                                            <div id="tabCarousel" class="carousel slide" data-ride="carousel">
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item tab active">
+                                                    	<?= Html::img('img/slide1.jpg');?>
+                                                        <div class="carousel-caption">
+                                                            <p>Header of Slide 1</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item tab">
+                                                    	<?= Html::img('img/slide2.jpg');?>
+                                                        <div class="carousel-caption">
+                                                            <p>Header of Slide 1</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item tab">
+                                                    	<?= Html::img('img/slide3.jpg');?>
+                                                        <div class="carousel-caption">
+                                                            <p>Header of Slide 1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Left and right controls -->
+                                                <a class="left carousel-control" href="#tabCarousel" role="button" data-slide="prev">
+                                                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#tabCarousel" role="button" data-slide="next">
+                                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                                <ol class="carousel-tab-indicators">
+                                                    <li data-target="#tabCarousel" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#tabCarousel" data-slide-to="1"></li>
+                                                    <li data-target="#tabCarousel" data-slide-to="2"></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                        </div>
+                                        <div class="col-lg-4">
+                                        </div>
+                                    </div>                                
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="menu12">
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane centered-pills" role="tabpanel" id="menu2">
+                        	<ul class="nav nav-pills nav-modified text-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#menu21" data-toggle="tab">BUMN/BUMD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu22" data-toggle="tab">BLU/BLUD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu23" data-toggle="tab">Desa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu24" data-toggle="tab">KPBU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu25" data-toggle="tab">Badan Hukum</a>
+                                </li>
                             </ul>
                             <div class="tab-subcontent float-right">
                                 <div class="tab-pane active" role="tabpanel" id="menu11">
@@ -86,10 +176,7 @@ $this->title = 'My Yii Application';
                                 <div class="tab-pane" role="tabpanel" id="menu12">
                                 
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" role="tabpanel" id="menu2">
-                        
+                            </div>                        
                         </div>
                     </div>
 				</div>

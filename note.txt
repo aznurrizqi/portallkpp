@@ -1,0 +1,19 @@
+Array Structure for Tabs
+array(
+	array(
+		"category" => "Pelaku Usaha",
+		"content" => array(
+				"Mendaftarkan Produk ke Katalog",
+				"Pendaftaran Sebagai Penyedia Baru",
+				"Pencarian Tender/Seleksi",
+			);
+	),
+	array(
+		"category" => "PA/KPA",
+		"content" => array(
+				"Mengumumkan Rencana Umum Pengadaan (RUP)",
+				"Monev Tepra",
+				"Monev Pengadaan",
+			);
+	)
+);
